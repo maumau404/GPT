@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+
+ body{
+    
+    background-color: #343541;
+ }
+
+ .login{
+    width: 1433px;
+    height: 745px;
+    background-color: #FFFFFF;
+    margin: 100px auto;
+
+ }
+
+ header{
+    display: flex;
+    
+ }
+
+ .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+
+ }
+
+
+ .card{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .textoLogin{
+    font-size: 31px;
+    font-family: 'inter';
+    font-weight: bold;
+ }
+
+ .linkSignup{
+    color: rgba(46, 51, 57, 1);
+ }
+
+ .linkSignup2{
+    color: #0FA47F;
+ }
+
+ .entrar{
+    width: 320px;
+    height: 50px;
+    background-color: #0FA47F;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;
+ }
+ 

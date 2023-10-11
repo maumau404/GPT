@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #343541;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.logo{
+
+    display: flex;
+    margin: 0 auto;
+}
+
+.texto1{
+
+    text-align: center;
+    font-size: 15px;
+    font-family: 'inter';
+    font-weight: 100;
+    margin: 12px;
+    
+}
+
+.texto2{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'inter';
+    font-weight: 100;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botaoConfig{
+
+    width: 65px;
+    height: 38px;
+    color: #FFFF;
+    background-color: #0FA47F;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 100;
+    border-radius: 4px;
+    border: none;
+    margin: 12px;
+
+}
+
+.botaoConfig2{
+    
+    width: 75px;
+    height: 38px;
+    color: #FFFF;
+    background-color: #0FA47F;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 100;
+    border-radius: 4px;
+    border: none;
+    margin: 12px;
+
+}
