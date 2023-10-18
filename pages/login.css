@@ -30,21 +30,79 @@
     justify-content: center;
     align-items: center;
     margin: 30px auto;
+}
 
- }
+.card{
+   display: flex;
+   flex-direction: column;
+   
+   align-items: center;
+   
+}
+
+.checkbox{
+   width: 320px;
+   height: 64px;
+   border: #C3C8CF 1px solid;
+}
+
+.continue{
+padding-top: 20px;
+}
+
+.sign{
+   padding-top: 20px;
+}
+
+.or{
+   padding-top: 20px;
+}
+
+.imputEmail{
+   width: 320px;
+   height: 64px;
+}
+
+.campoEmail{
+width: 320px;
+height: 52px;
+border: #0FA47F 1px solid;
+}
+
+.textoEmail{
+color: #0FA47F;
+}
+
+/* -------------------------------------------------------------- */
+
+fieldset{
+   width: 320px;
+   height: 52px;
+   border-radius: 4px;
+   border: 1px solid var(--greenAcenture);
+   position: relative;
+   
+}
+legend{
+   font-size: 14px;
+   font-weight: 300;
+   color: var(--greenAcenture);
+   margin-left: 10px;
+   border: 5px solid var(--white);
+}
 
 
- .card{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
 
- .textoLogin{
+
+/* --------------------------------------------------------------- */
+
+
+
+.textoLogin{
     font-size: 31px;
     font-family: 'inter';
     font-weight: bold;
+    padding: 50px 0px 20px ;
  }
 
  .linkSignup{
@@ -62,5 +120,75 @@
     border: none;
     color: #FFFFFF;
     border-radius: 4px;
+ }
+
+ .buttonGoogle{
+    display: flex;
+    align-items: center;
+   
+ }
+
+ .linha1{
+    width: 138px;
+ }
+
+ .hrlinha{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+ }
+
+  .or{
+     text-align: center;
+     margin: 0 auto;
+     padding: 20px;
+     font-family: 'inter';
+     font-weight: 300;
+     font-size: 12px;
+     color: #2E3339;
+
+  }
+
+ .buttonMicrosoft{
+   padding-top: 7px;
+ }
+ 
+ .google{
+   width: 320px;
+   height: 52px;
+   display: flex;
+   align-items: center;
+   border: #C3C8CF 1px solid;
+   color: #2E3339;
+   border-radius: 4px;
+   font-family: 'inter';
+   font-size: 15px;
+   font-weight: 500;
+   
+   
+ }
+
+ .imgGoogle{
+    margin-left: 20px;
+    margin-right: 10px;
+ }
+
+ .microsoft{
+   width: 320px;
+   height: 52px;
+   display: flex;
+   align-items: center;
+   border: #C3C8CF 1px solid;
+   color: #2E3339;
+   border-radius: 4px;
+   font-family: 'inter';
+   font-size: 15px;
+   font-weight: 500;
+ }
+
+ .imgMicrosoft{
+   margin-left: 20px;
+   margin-right: 10px;
  }
  
