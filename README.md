@@ -30,7 +30,7 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 
 ## Preview
 
-![GPT]([https://github.com/f5-nascimento/Sistok/assets/28812188/0eeb7054-37d7-40bd-abb3-002fbfeb3d88](https://github.com/maumau404/GPT))
+![GPT](https://github.com/maumau404/GPT)
 
 
 ## Deploy
